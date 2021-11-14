@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Exercicio 1</title>
+</head>
+  <body>
+    <div class="containner">
+      <section class="innerLeft">
+        <img src="imagemA.jpeg" />
+      </section>
+      <section class="innerRight">
+        <h1>INFORMAÇÕES DA RESERVA</h1>
+        <form>
+
+          <div class="form-row">
+            <div class="form-col-100">
+              <input type="text" placeholder="Nome Completo" name="nome_completo" class="input" >
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-col-50">
+              <input type="text" placeholder="Qtde de pessoas" name="qtd_pessoas" class="input">            
+            </div>
+            <div class="form-col-50">
+              <select id="genero"  class="input">
+                <option value="" disabled selected>Gênero</option>
+                <option value="m">Masculino</option>
+                <option value="f">Feminino</option>
+                <option value="o">Outros</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-col-50">
+              <select id="genero" class="input">
+                <option value="" disabled selected>Acomodações</option>
+                <option value="1">Solteiro 1</option>
+                <option value="2">Casal 2</option>
+                <option value="3">Suite Master Vip 3</option>
+              </select>
+            </div>
+            <div class="form-col-50">
+              <input type="text" placeholder="Cupom de cliente VIP" name="cod_cliente" class="input">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-col-50">
+              <button >Reservar Agora</button>
+            </div>
+          </div>    
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
